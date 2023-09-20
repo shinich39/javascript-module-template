@@ -1,7 +1,7 @@
 ### Installation
 
 ```console
-git clone https://github.com/shinich39/javascript-module-template.git && cd javascript-module-template && npm install && npm run unlink && && npm uninstall mkdirp rimraf
+git clone https://github.com/shinich39/javascript-module-template.git && cd javascript-module-template && npm install && npm run unlink && npm uninstall mkdirp rimraf
 ```
 
 ### Packaging
