@@ -21,11 +21,11 @@ npm init
 }
 ```
 
-### Usage
-
 ```console
 npm pack
 ```
+
+### Usage
 
 ```console
 npm install my-module-1.0.0.tgz
