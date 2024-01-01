@@ -1,7 +1,7 @@
 ### Installation
 
 ```console
-git clone https://github.com/shinich39/javascript-module-template.git && cd javascript-module-template && npm install && npm run unlink && npm uninstall mkdirp rimraf
+git clone https://github.com/shinich39/javascript-module-template.git
 ```
 
 ### Packaging
@@ -9,8 +9,6 @@ git clone https://github.com/shinich39/javascript-module-template.git && cd java
 ```js
 // package.json
 {
-	// change module name
-	"name": "my-module"
 	// include module while "npm pack"
 	"bundleDependencies": [
 		"path",
@@ -19,23 +17,20 @@ git clone https://github.com/shinich39/javascript-module-template.git && cd java
 }
 ```
 
+### Test
+
 ```console
 npm pack
 ```
 
-### Install
-
-- In node project directory.
 ```console
 npm install my-module-1.0.0.tgz
 ```
 
 ```js
-import myModule from 'my-module';
-
-// or
-
-const myModule = require('my-module');
+import myModule from 'my-module'; // AMD
+const myModule = require('my-module'); // CommonJS
+window.myModule; // Browser
 ```
 
 ### Usage
