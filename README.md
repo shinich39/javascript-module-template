@@ -4,6 +4,10 @@
 git clone https://github.com/shinich39/javascript-module-template.git
 ```
 
+```console
+npm init
+```
+
 ### Packaging
 
 ```js
@@ -17,7 +21,7 @@ git clone https://github.com/shinich39/javascript-module-template.git
 }
 ```
 
-### Test
+### Usage
 
 ```console
 npm pack
@@ -33,9 +37,7 @@ const myModule = require('my-module'); // CommonJS
 window.myModule; // Browser
 ```
 
-### Usage
-
-```
+```js
 const { sum, test } = myModule;
 
 sum(1, 2);
