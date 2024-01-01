@@ -1,7 +1,15 @@
 ### Installation
 
+- win
+
 ```console
-git clone https://github.com/shinich39/javascript-module-template.git
+git clone https://github.com/shinich39/javascript-module-template.git && cd ./javascript-module-template && rm -r -Force .git
+```
+
+- osx
+
+```console
+git clone https://github.com/shinich39/javascript-module-template.git && cd ./javascript-module-template && rm -rf .git
 ```
 
 ```console
