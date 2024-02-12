@@ -9,15 +9,8 @@
 </head>
 
 <body>
-  <script src="./index.cjs"></script>
+  <script src="./index-browser.js"></script>
   <script>
-    var { test, sum } = myModule;
-    test(sum).exec(1, 2);
-  </script>
-
-  <script type="module" src="./index.mjs"></script>
-  <script type="module">
-    import myModule from "./index.mjs";
     var { test, sum } = myModule;
     test(sum).exec(1, 2);
   </script>
